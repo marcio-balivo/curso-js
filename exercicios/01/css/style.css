@@ -1,0 +1,17 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+input { 
+    font-size: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div {
+    margin: 10px 0;
+}
+label {
+    display: block;
+}

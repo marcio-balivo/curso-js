@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <form>
+        <div>
+            <label for="parcela1">Parcela 1</label>
+            <input type="number" name="parcela1" id="parcela1" placeholder="Digite o valor da Parcela 1">
+        </div>
+        <div>
+            <label for="parcela2">Parcela 2</label>
+            <input type="number" name="parcela2" id="parcela2" placeholder="Digite o valor da Parcela 2">
+        </div>
+        <div>
+            <label for="parcela3">Parcela 3</label>
+            <input type="number" name="parcela3" id="parcela3" placeholder="Digite o valor da Parcela 3">
+        </div>
+        <button onclick=obterMedia()>Calcular</button>
+        <div id="soma"></div>
+    </form>
+</body>
+<script src="./js/script.js"></script>
+</html>
